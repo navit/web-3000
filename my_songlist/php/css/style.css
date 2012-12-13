@@ -1,0 +1,131 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: black;
+	display: block;
+	}
+	
+#content{
+	margin:0 auto;
+	width: 980px;
+}
+
+h1{
+	font-family: 'bebasregular','proxima_nova_ltregular';
+	font-size: 87px;
+	letter-spacing: .03em;
+	line-height: 90px;
+	font-weight:bold;
+	margin: 0;
+ 	padding: .22em 0 0 0;
+	border-top: .02em solid white;
+}
+
+div#Maintitle {
+	background-color: black;
+	float:left;
+	position: fixed;
+	padding-top:110px;
+	padding-bottom:80px; 
+	
+}
+
+div#keyTitles{
+	margin-top: 270px;
+	position: fixed;
+	background-color: black;
+	width:500px;	
+}
+
+h2{
+	font-family: 'proxima_nova_ltregular';
+}
+
+ul{ 
+	/* border-bottom: 1px solid #DDD; */
+	list-style: none;
+	padding-bottom: 80px;
+	padding-left: 0px;
+	font-family: 'proxima_nova_ltregular';
+	font-size: 24px;
+	font-weight: 400;
+	padding:10px 0 10px 0;
+}
+div#list{
+	width:500px;
+	float:left;
+	margin-top: 300px;
+}
+span{
+	font-size: 20px;
+	padding-right: 10px;
+}
+span.rank{
+	color: white;	
+}
+
+span.artist {
+	color: #32a1da;
+}
+
+span.duration{
+	color: #aba9a9;	
+}
+span.year{	
+	color: #615faa;	
+}
+span.link a{
+	color: #44b75e;
+	text-decoration: none;
+}
+span.link a:hover{
+	color: #32a1da;
+	text-decoration: none;
+	size:24px;
+}
+span.song{
+	color: #44b75e;	
+}
+
+
+li{
+border-bottom: 1px solid #DDD;
+padding: 10px 0 10px 0;
+	
+}
+
+div#albums{
+	border-style:solid;
+	border-width: 1px;
+	width:400px;
+	height: 400px;
+	margin: 360px 0 0 570px;
+	float: right;
+	/* clear:right; */
+	position: fixed;
+	
+}
+img.album{
+	width:400px;
+	height: 400px;
+	
+	
+}
+
+/*
+span.name{
+	color: #44b75e;
+}
+*/
+/*
+span.album{
+	 color: #615faa;
+}
+*/
+
+
+
+

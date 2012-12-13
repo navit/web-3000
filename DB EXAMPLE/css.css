@@ -1,0 +1,7 @@
+body {
+	background:lime;
+}
+
+body.success {
+	background:blue;
+}

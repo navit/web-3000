@@ -1,0 +1,29 @@
+AWS vocab
+
+ec2= elastic cloud computing- A computer int he cloud.
+s3= simple storgae service. a hard drive in the cloud.
+the route to my system: 
+
+
+EC2 Instance: web3000 (i-21e37a12) 
+
+ec2-50-112-203-63.us-west-2.compute.amazonaws.com
+
+
+
+
+package manager - abuntu
+
+apache-
+
+sudo super user do// the computer is your bitch
+
+apt-get the command line program to run our package manager 
+
+sudo apt-get upgrade apache2
+
+
+
+sftp:
+user: navitush
+password: navitush

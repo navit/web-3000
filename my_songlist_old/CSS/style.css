@@ -1,0 +1,83 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: black;
+	display: block;
+	}
+	
+#content{
+	margin:110px auto;
+	width: 970px;
+}
+
+h1{
+	font-family: 'proxima_nova_ltregular';
+	font-size: 86px;
+	letter-spacing: .03em;
+	line-height: 90px;
+	font-weight:bold;
+	margin: 0;
+	padding: .22em 0 0 0;
+	border-top: .02em solid white;
+}
+
+h2{
+	font-family: 'proxima_nova_ltregular';
+	font-size: 90px;
+	font-weight: 100;
+	color: #44b75e;
+	letter-spacing: .03em;
+	
+}
+
+ul{ 
+	border-bottom: 1px solid #DDD;
+	list-style: none;
+	padding-bottom: 80px;
+	padding-left: 0px;
+	}
+	
+ul li.top10{
+	font-family: 'proxima_nova_ltregular';
+	font-size: 24px;
+	font-weight: 400;
+	border-bottom: 1px solid #DDD;
+	padding:10px 0 10px 0;
+	/* display: inline-block; */
+	
+}
+ul li.top10 a.song{
+	text-decoration: none;
+	color: #44b75e;
+}
+span.container#attributes{
+	padding-left: 30px;
+}
+span.container span.rank{
+	font-weight: 400;
+	color: #615faa;
+	padding-right: 10px;
+}
+
+span.container span.band {
+    font-size: 20px;
+	color: #32a1da;
+}
+span.container span.song{
+	color: #44b75e;
+	
+}
+span.container span.album{
+	font-size: 20px;
+	color:#32a1da;/*  #615faa; */
+}
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*________________________________________________________________________________*/
+
+body{
+	/* width:100%; */
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: black;
+	display: block;
+	}
+div.container{
+	width:960px;
+	margin:0 auto;
+	padding-top: 20px;
+}
+section.listItem{
+	width:700px;;
+	margin: 20px auto;
+
+	}
+img.cover{
+	width:350px;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: -80px;
+	float: left;0
+	border-image: 4px;
+	}
+
+div.details{
+	width:400px;
+	height:350px;
+	margin-top: 20px;
+	padding-top: 0;
+	/* border-bottom: 1px solid #DDD; */
+	float: right;
+}
+
+h1{
+	font-family: 'Oswald','bebasregular','proxima_nova_ltregular';
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: .03em;
+	margin-left: 180px;
+ 	margin-top: 20px;
+ 	padding-top: 20px;	
+}
+
+h2{
+	font-family:'proxima_nova_ltregular';
+	font-size: 17px;
+	font-weight: 900;
+	color:black;
+	background:#12c89a;
+	padding: 4px;
+}
+
+ul{ 
+	list-style: none;
+	/* padding-bottom: 40px; */
+	font-family: 'proxima_nova_ltregular';
+	font-size: 16px;
+	line-height:18px;
+}
+
+li{
+border-bottom: 1px solid #DDD;
+padding: 10px 0 10px 0;
+
+}
+
+

@@ -1,0 +1,31 @@
+databases
+
+squel - simple query language
+
+
+mongodb is comprised of db ; db are compirised of collections;
+
+like unicorn is a collection
+
+
+db.unicorns.find({gender:"m", weight:{$gt:600}});  
+takes a second argument
+
+$ = conditional operators
+
+db.unicorns.find({limiters});
+
+db.unicorns.find({},{name:1,weight:1});  one meand true....give me all the unicorns! the first argument is empty!
+
+
+db.unicorns.find({gender:"m"},{name:1}).sort({weight:1}).skip(1).limit(2);
+
+insert command to add to write to the db
+
+db.nameofcollection.find(); gives us all
+
+update(); change some info in the field.
+
+update({}); first argument= who do i want to update, what we are changing. use $set to keep all the other parameters and only update one or else it will earase everything we wrote before.
+
+remove(); 

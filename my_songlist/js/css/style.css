@@ -1,0 +1,78 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: black;
+	display: block;
+	}
+	
+#content{
+	margin:110px auto;
+	width: 970px;
+}
+
+h1{
+	font-family: 'proxima_nova_ltregular';
+	font-size: 86px;
+	letter-spacing: .03em;
+	line-height: 90px;
+	font-weight:bold;
+	margin: 0;
+	padding: .22em 0 0 0;
+	border-top: .02em solid white;
+}
+
+ul{ 
+	border-bottom: 1px solid #DDD;
+	list-style: none;
+	padding-bottom: 80px;
+	padding-left: 0px;
+	font-family: 'proxima_nova_ltregular';
+	font-size: 24px;
+	font-weight: 400;
+	border-bottom: 1px solid #DDD;
+	padding:10px 0 10px 0;
+}
+/*
+span{
+	font-size: 20px;
+	padding-right: 10px;
+}
+span.rank{
+	color: white;	
+}
+
+span.artist {
+	color: #32a1da;
+}
+span.name{
+	color: #44b75e;
+}
+span.album{
+	 color: #615faa;
+}
+span.duration{
+    font-size: 15px;
+	color: #aba9a9;	
+}
+span.year{
+	font-size: 18px;	
+	color: #615faa;	
+}
+*/
+
+li{
+font-size: 18px;	
+color: #615faa;	
+border-bottom: 1px solid #DDD;
+padding: 10px 0 10px 0;
+	
+}
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#000;
+    width:12000px;
+    font-family: 'bebasregular', 'intro_regular', Georgia;
+    position:absolute;
+    top:0px;
+    left:20px;
+    bottom:0px;
+}
+.section{
+    margin:0px;
+    bottom:0px;
+    width:4000px;
+    float:left;
+    height:100%;
+}
+.section img{
+    height: 350px;
+    width: 550px;
+    float: right;
+    margin-right:3320px;
+    margin-top: 20px;
+}
+.section h1{
+    font-size: 90px;
+    margin:30px 0px 30px 50px;
+    padding: 50px 0px 0px 80px;
+     color:#dc046f;/* pink*/
+   
+}
+.section h1{
+    font-size: 90px;
+    margin:30px 0px 0px 50px;
+    padding: 50px 0px 0px 80px;
+}
+.section h2{
+    font-size: 90px;
+    color:#50bbc9; /*blue*/
+    margin:30px 0px 30px 50px;
+    padding: 50px 0px 0px 80px;
+}
+.section a{
+    color:#50bbc9;
+    text-decoration: none;
+}
+div.terminal{
+    width:800px;
+    margin:10px 0px 0px 130px;
+    padding:8px;
+    font-size: 15pt;
+    font-family: monospace;
+    color:black;
+    background-color: #737373;
+}
+.section h3{
+    font-size: 25px;
+    color:#dc046f;
+    margin: 0px 0px 0px 50px;
+    padding: 30px 0px 0px 80px; 
+}
+.section p{
+    font-family: Georgia,'intro_inlineregular';
+    color:#949492;
+    font-size: 16pt;
+    line-height: 25pt;
+    margin:20px 0px 0px 50px;
+    padding-left: 80px;
+    width:900px;
+}
+section#home{
+ height: 100px;
+}
+section#home p{
+    font-size: 18pt;
+    margin-top: 10px;
+}
+img#home{
+    margin-right:2800px;
+    margin-top: -90px;
+    height:65px;
+    width: 65px;
+}
+img#arrow{
+    margin-right:2800px;
+    margin-top: -120px;
+    height:65px;
+    width: 65px;
+}
+img#server{
+    height: 100px;
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 130px;
+    float: left;  
+}
+.pink{
+    color:#dc046f;
+}
+.orange{
+    color:#ea7321;
+}
+.black{
+    background:#000; 
+}
+img#vi{
+    width:580px;
+    height: 260px;
+    margin-right:3290px;
+    margin-top: 5px;
+}
+img#inbound{
+    margin-top: 5px;
+}
+.section ul{
+    font-size: 14pt;
+    list-style:none;
+    margin:490px 0px 0px 0px;
+    padding-left: 104px;
+    padding-top: 70px;
+    position: fixed 
+}
+.black ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#dc046f;
+}
+.black ul li a{
+    display:block;
+    color:#7fb969; /*greenish*/
+    text-decoration: none;
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
